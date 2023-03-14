@@ -17,7 +17,7 @@ const Home = () => {
             </div>
 
             <ScrollDown />
-        </div>
+        </div> 
     </section>
   )
 }
