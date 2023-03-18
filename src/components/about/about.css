@@ -7,7 +7,7 @@
 .about__img {
     width: 350px;
     border-radius: 1.5rem;
-    justify-content: center;
+    justify-self: center;
 }
 
 .about__info {
@@ -30,7 +30,7 @@
     margin-bottom: var(--mb-0-5);
 }
 
-.about-title {
+.about__title {
     font-size: var(--small-font-size);
     font-weight: var(--font-medium);
 }
