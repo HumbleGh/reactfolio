@@ -23,13 +23,6 @@ const Qualification = () => {
             <div className="qualification__sections">
                 <div className="qualification__content qualification__content-active">
                     <div className="qualification__data">
-                        <div></div>
-
-                        <div>
-                            <span className="qualification__rounder"></span>
-                            <span className="qualification__line"></span>
-                        </div>
-
                         <div>
                             <h3 className="qualification_-title">Web Designer</h3>
                             <span className="qualification__subtitle"> Spain Institute</span>
@@ -38,13 +31,19 @@ const Qualification = () => {
                             </div>
                         </div>
 
-                        <div>
+                       <div>
                             <span className="qualification__rounder"></span>
                             <span className="qualification__line"></span>
-                        </div>
-                    </div>
+                       </div>
+                     </div>
 
                     <div className="qualification__data">
+                    <div></div>
+
+                       <div>
+                            <span className="qualification__rounder"></span>
+                            <span className="qualification__line"></span>
+                    </div>
 
                         <div>
                             <h3 className="qualification_-title">Art Director</h3>
@@ -54,49 +53,12 @@ const Qualification = () => {
                             </div>
                         </div>
                    </div>
-
-                   <div className="qualification__data">
-                        <div></div>
-
-                        <div>
-                            <span className="qualification__rounder"></span>
-                            <span className="qualification__line"></span>
-                        </div>
-
-                        <div>
-                            <h3 className="qualification_-title">Web Developement</h3>
-                            <span className="qualification__subtitle"> Spain Institute</span>
-                            <div className="qualification__calender">
-                                <i className="uil uil-calender-alt"></i> 2018 - 2020
-                            </div>
-                        </div>
-
-                        <div>
-                            <span className="qualification__rounder"></span>
-                            <span className="qualification__line"></span>
-                        </div>
-                    </div>
-
-                    <div className="qualification__data">
-
-                        <div>
-                            <h3 className="qualification_-title">UX Expert</h3>
-                            <span className="qualification__subtitle"> Spain Institute</span>
-                            <div className="qualification__calender">
-                                <i className="uil uil-calender-alt"></i> 2017 - 2018
-                            </div>
-                        </div>
-                   </div>
                 </div>
-                <div className="qualification__content">
+              </div>
+              
+            <div className="qualification__sections">
+                <div className="qualification__content qualification__content-active">
                     <div className="qualification__data">
-                        <div></div>
-
-                        <div>
-                            <span className="qualification__rounder"></span>
-                            <span className="qualification__line"></span>
-                        </div>
-
                         <div>
                             <h3 className="qualification_-title">Web Designer</h3>
                             <span className="qualification__subtitle"> Spain Institute</span>
@@ -105,13 +67,19 @@ const Qualification = () => {
                             </div>
                         </div>
 
-                        <div>
+                       <div>
                             <span className="qualification__rounder"></span>
                             <span className="qualification__line"></span>
-                        </div>
-                    </div>
+                       </div>
+                     </div>
 
                     <div className="qualification__data">
+                    <div></div>
+
+                       <div>
+                            <span className="qualification__rounder"></span>
+                            <span className="qualification__line"></span>
+                    </div>
 
                         <div>
                             <h3 className="qualification_-title">Art Director</h3>
@@ -121,30 +89,10 @@ const Qualification = () => {
                             </div>
                         </div>
                    </div>
-
-                   <div className="qualification__data">
-                        <div></div>
-
-                        <div>
-                            <span className="qualification__rounder"></span>
-                            <span className="qualification__line"></span>
-                        </div>
-
-                        <div>
-                            <h3 className="qualification_-title">Web Developement</h3>
-                            <span className="qualification__subtitle"> Spain Institute</span>
-                            <div className="qualification__calender">
-                                <i className="uil uil-calender-alt"></i> 2018 - 2020
-                            </div>
-                        </div>
-
-                        <div>
-                            <span className="qualification__rounder"></span>
-                            <span className="qualification__line"></span>
-                        </div>
-                    </div>
                 </div>
-            </div>
+              </div>
+
+
         </div>
       </section>
 
