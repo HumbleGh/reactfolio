@@ -46,7 +46,7 @@ const Contact = () => {
 
 
           <div className="contact__content">
-            <h3 className="contact_-title"> Write me your project</h3>
+            <h3 className="contact__title"> Write me your project</h3>
 
             <form className="contact__form">
             <div className="contact__form-div">

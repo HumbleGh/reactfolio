@@ -44,7 +44,7 @@ const Backend = () => {
                 </div>
                 </div>
 
-                <div className="skills__data">
+                {/* <div className="skills__data">
                 <i class='bx bx-badge-check' ></i>
 
                 <div>
@@ -67,16 +67,19 @@ const Backend = () => {
                     <h3 className="skills__name">Rust</h3>
                     <span className="skills__level">Intermediate</span>
                 </div>
-                </div>
+                </div> */}
+
                 <div className="skills__data">
                 <i class='bx bx-badge-check' ></i>
-
+{/* 
                 <div>
                     <h3 className="skills__name">Go</h3>
                     <span className="skills__level">Intermediate</span>
-                </div>
+                </div> */}
+
                 </div>
             </div>
+            
         </div>
     </div>
   )

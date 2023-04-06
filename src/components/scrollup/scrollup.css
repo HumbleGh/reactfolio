@@ -19,6 +19,7 @@
     background-color: var(--title-color-dark);
 }
 
+/* show scroll */
 .show-scroll {
     bottom: 3rem;
 }
