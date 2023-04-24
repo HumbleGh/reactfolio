@@ -1,7 +1,7 @@
 import React from 'react';
+import WorkItems from './WorkItems';
 import { projectsData } from './Data';
 import { projectsNav } from './Data';
-import WorkItems from './WorkItems';
 import { useState } from 'react';
 import { useEffect } from 'react';
 
@@ -18,15 +18,17 @@ const Works = () => {
     
     else {
       const newProjects = projectsData.filter((project) => {
-        return project.category === item.name;
+        return project.category.toLowerCase() === item.name;
       });
       setProjects(newProjects)
     }
   }, [item]);
 
   const handleClick = (e, index) => {
-    setItem({ name: e.target.textContent });
-  }
+    setItem({ name: e.target.textContent.toLowerCase() });
+    setActive(index);
+  };
+
   return ( 
     <div>
      <div className="work__filters">
@@ -36,7 +38,8 @@ const Works = () => {
              onClick={(e) => {
               handleClick(e, index);
              }} 
-             className="work__item" 
+             className={`${active === index ? "active-work" : 
+              ""} work__item`}  
              key={index}>
                 {item.name}
             </span>
